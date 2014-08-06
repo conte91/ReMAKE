@@ -62,12 +62,23 @@ void TcpConnection::parseBuffer(){
           }
           break;
         case 'C':
-          LeftClick();
+          parse >> x >> y;
+          for(int i=0; i<x; ++i){
+            doClick(y);
+          }
           break;
         case 'R':
           parse >> x >> y;
           if(!parse.fail()){
             MoveMouseRelative(x, y);
+          }
+          break;
+        case 'T':
+          parse >> x;
+          if(!parse.fail()){
+            /** Reads until EOL */
+            line.erase(0, parse.tellg());
+            sendKeys(line.c_str(), x);
           }
           break;
       }

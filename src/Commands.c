@@ -39,3 +39,24 @@ void LeftClick(){
   }
 }
 
+void doClick(int button){
+  if(!tool){
+    fprintf(stderr, "Attempting to use empty XDoTool");
+    return;
+  }
+
+  if(xdo_click 	(tool, CURRENTWINDOW, button)){
+    fprintf(stderr, "Click faaaail\n");
+  }
+}
+
+void sendKeys(const char* string, int newline){
+  if(!tool){
+    fprintf(stderr, "Attempting to use empty XDoTool");
+    return;
+  }
+
+  if(xdo_type(tool, CURRENTWINDOW, string, 10000) || (newline && xdo_type(tool, CURRENTWINDOW, "\n", 10000))){
+    fprintf(stderr, "Keyboard faaaaail\n");
+  }
+}
