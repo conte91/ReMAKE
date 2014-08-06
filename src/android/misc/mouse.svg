@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="mouse.svg"
+   inkscape:export-filename="/home/simo/My_Projects/ReMAKE/src/android/res/drawable/mouse.png"
+   inkscape:export-xdpi="75.879997"
+   inkscape:export-ydpi="75.879997">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter3819">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.9372997"
+         id="feGaussianBlur3821" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="146.78862"
+     inkscape:cy="-60.740452"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1364"
+     inkscape:window-height="747"
+     inkscape:window-x="0"
+     inkscape:window-y="19"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;fill:#daffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:20.59700000000000131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.05785124000000000;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter3819)"
+       d="M 379.8125 790.78125 C 352.52083 790.78125 326.20835 796.44226 301.4375 806.9375 L 301.4375 1052.375 L 455.5625 1052.375 C 454.57991 968.03261 451.20014 863.93828 449.03125 803.28125 C 426.96931 795.12453 403.75946 790.78125 379.8125 790.78125 z M 461.4375 808.34375 C 460.56794 865.51654 459.19856 945.16861 457.09375 1052.375 L 634.125 1052.375 C 609.79829 936.95475 544.65057 845.21796 461.4375 808.34375 z M 284.96875 814.75 C 208.11398 855.13046 148.52545 943.14835 125.5 1052.375 L 297.75 1052.375 L 284.96875 814.75 z "
+       id="path3759" />
+  </g>
+</svg>
